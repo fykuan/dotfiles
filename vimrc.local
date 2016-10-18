@@ -6,4 +6,6 @@ au BufEnter * inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "<TAB>"
 set nofoldenable
 set lazyredraw
 set ttyfast
-
+" GUI Settings
+set guifont="Source\ Code\ Pro\ ExtraLight:11
+set antialias
