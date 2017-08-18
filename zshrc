@@ -73,4 +73,4 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+source "${ZDOTDIR:-$HOME}/.prezto/init.zsh"
