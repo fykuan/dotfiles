@@ -1,6 +1,6 @@
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="dieter"
-plugins=(cp git zsh-syntax-highlighting docker zsh-autosuggestions)
+plugins=(cp git zsh-syntax-highlighting docker zsh-autosuggestions tmux)
 source $HOME/.oh-my-zsh/oh-my-zsh.sh
 cd "$HOME"
 
@@ -23,8 +23,6 @@ alias cls="clear"
 alias g="grep --color=auto"
 alias ssh="ssh -4 -C -e none"
 alias vi="vim"
-alias tmux="tmux -2"
-alias ta="tmux attach"
 alias yh="ypcat hosts"
 alias qotd="curl -s http://wowquote.tw/quote/random\?json\=1 | jq '.celebrity.name + \"：\" + .quote[0]' | cowsay -f www -d -n"
 alias lock="i3lock -i ~/arch-wallpapers/wallhaven-333506.png"
