@@ -1,6 +1,6 @@
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="gianu"
-plugins=(cp git zsh-syntax-highlighting docker zsh-autosuggestions tmux)
+plugins=(cp git zsh-syntax-highlighting docker zsh-autosuggestions tmux zsh-completions)
 source $HOME/.oh-my-zsh/oh-my-zsh.sh
 cd "$HOME"
 
