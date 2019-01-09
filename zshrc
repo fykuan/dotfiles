@@ -1,5 +1,5 @@
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="gianu"
+ZSH_THEME="dallas"
 plugins=(cp git zsh-syntax-highlighting docker zsh-autosuggestions tmux zsh-completions)
 source $HOME/.oh-my-zsh/oh-my-zsh.sh
 cd "$HOME"
