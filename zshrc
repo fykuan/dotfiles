@@ -58,6 +58,10 @@ if [ -x /usr/local/bin/exa ]; then
     alias ls="exa"
 fi
 
+if [ -x /usr/local/bin/bat ]; then
+    alias cat="bat"
+fi
+
 # 讓iterm2的tab名稱顯示：@${HOSTNAME.*}: ${PWD/#$HOME/~
 HOSTNAME="`hostname`"
 function precmd {
