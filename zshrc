@@ -59,7 +59,7 @@ if [ -x /usr/local/bin/exa ]; then
 fi
 
 if [ -x /usr/local/bin/bat ]; then
-    alias cat="bat"
+    alias cat="bat -p"
 fi
 
 # 讓iterm2的tab名稱顯示：@${HOSTNAME.*}: ${PWD/#$HOME/~
