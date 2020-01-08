@@ -1,7 +1,3 @@
-ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="dallas"
-plugins=(cp git zsh-syntax-highlighting docker zsh-autosuggestions tmux zsh-completions)
-source $HOME/.oh-my-zsh/oh-my-zsh.sh
 cd "$HOME"
 
 # 設定$PATH
@@ -69,8 +65,6 @@ function precmd {
 }
 # 拿掉oh-my-zsh的AUTO_TITLE，否則上面設定的tab名稱會一直被蓋掉
 DISABLE_AUTO_TITLE=true
-
-source "$HOME/.zshrc.source"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
