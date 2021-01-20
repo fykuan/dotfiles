@@ -79,5 +79,3 @@ if [ -d $HOME/Library/Python/2.7/bin   ]; then
    export PATH=$HOME/Library/Python/2.7/bin:$PATH
 fi
 
-# Load prezto
-source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
