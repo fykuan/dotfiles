@@ -30,6 +30,9 @@ Plug 'chriskempson/tomorrow-theme'
 Plug 'sheerun/vim-polyglot'
 Plug 'chriskempson/vim-tomorrow-theme'
 Plug 'airblade/vim-gitgutter'
+Plug 'frazrepo/vim-rainbow'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 colorscheme Tomorrow-Night-Eighties
+au FileType c,cpp,objc,objcpp call rainbow#load()
