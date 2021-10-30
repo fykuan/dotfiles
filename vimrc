@@ -16,13 +16,20 @@ syntax on
 filetype plugin on
 set cursorline
 set ttyfast
-"
+set t_Co=256
+
+"""""""""""""""""""""
 "Plugins
-"
+"""""""""""""""""""""
+
 call plug#begin('~/.vim/plugged')
 Plug 'bling/vim-airline'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'chriskempson/tomorrow-theme'
 Plug 'sheerun/vim-polyglot'
+Plug 'chriskempson/vim-tomorrow-theme'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
+
+colorscheme Tomorrow-Night-Eighties
