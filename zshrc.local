@@ -79,3 +79,5 @@ if [ -d $HOME/Library/Python/2.7/bin   ]; then
    export PATH=$HOME/Library/Python/2.7/bin:$PATH
 fi
 
+plugins=(git zsh-autosuggestions history copydir autojump)
+
