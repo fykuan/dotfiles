@@ -32,6 +32,7 @@ Plug 'chriskempson/vim-tomorrow-theme'
 Plug 'airblade/vim-gitgutter'
 Plug 'frazrepo/vim-rainbow'
 Plug 'jiangmiao/auto-pairs'
+Plug 'preservim/nerdtree'
 call plug#end()
 
 colorscheme Tomorrow-Night-Eighties
