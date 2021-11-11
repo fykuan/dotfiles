@@ -42,8 +42,7 @@ export XMODIFIERS=@im=ibus
 export GTK_IM_MODULE=ibus
 export QT_IM_MODULE=ibus
 
-
-if [ -x /usr/local/bin/most -o -x /usr/bin/most -o -x /opt/local/bin/most ]; then
+if command -v most &> /dev/null; then
     export PAGER="most"
     alias more="most"
 else
@@ -51,12 +50,12 @@ else
     alias more="less"
 fi
 
-if [ -x /usr/local/bin/exa ]; then
-    alias ls="exa"
+if command -v bat &> /dev/null; then
+    alias cat="bat -p"
 fi
 
-if [ -x /usr/local/bin/bat ]; then
-    alias cat="bat -p"
+if command -v exa &> /dev/null; then
+    alias ls="exa"
 fi
 
 # 讓iterm2的tab名稱顯示：@${HOSTNAME.*}: ${PWD/#$HOME/~
