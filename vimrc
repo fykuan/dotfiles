@@ -35,5 +35,5 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdtree'
 call plug#end()
 
-colorscheme Tomorrow-Night-Eighties
+silent! colorscheme Tomorrow-Night-Eighties
 au FileType c,cpp,objc,objcpp call rainbow#load()
