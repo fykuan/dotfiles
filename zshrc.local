@@ -57,7 +57,7 @@ if command -v bat &> /dev/null; then
 fi
 
 if command -v exa &> /dev/null; then
-    alias ls="exa"
+    alias ls="exa -g"
 fi
 
 # 讓iterm2的tab名稱顯示：@${HOSTNAME.*}: ${PWD/#$HOME/~
