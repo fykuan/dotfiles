@@ -41,5 +41,5 @@ silent! colorscheme Tomorrow-Night-Eighties
 au FileType c,cpp,objc,objcpp call rainbow#load()
 
 """ highlight 要寫在 colorscheme 之後
-highlight CursorColumn cterm=none ctermbg=23
-highlight CursorLine cterm=none ctermbg=23
+highlight CursorColumn cterm=none ctermbg=8
+highlight CursorLine cterm=none ctermbg=8
