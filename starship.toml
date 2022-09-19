@@ -1,7 +1,7 @@
 # Get editor completions based on the config schema
 "$schema" = 'https://starship.rs/config-schema.json'
 
-format = "$all$time$username$directory$aws$character"
+format = "$all$time$username@$hostname$directory$character"
 
 # Inserts a blank line between shell prompts
 add_newline = false
@@ -17,15 +17,18 @@ disabled = true
 [username]
 style_user = "white bold"
 style_root = "black bold"
-format = "[$user]($style) "
+format = "[$user]($style)"
 disabled = false
 show_always = true
-
-[time]
-disabled = false
 
 [aws]
 format = 'on [$symbol($profile )(\($region\) )]($style)'
 style = "bold blue"
 symbol = "🅰 "
 
+[hostname]
+ssh_only = false
+
+[time]
+format = "[$time]($style) "
+disabled = false
