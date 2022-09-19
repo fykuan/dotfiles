@@ -57,7 +57,7 @@ if command -v nvim &> /dev/null; then
 fi
 
 if command -v bat &> /dev/null; then
-    alias cat="bat -p"
+    alias cat="bat -p --theme=\"Sublime Snazzy\""
 fi
 
 if command -v exa &> /dev/null; then
