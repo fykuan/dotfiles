@@ -26,6 +26,8 @@ alias rainbowstream="~/venv/bin/python ~/venv/bin/rainbowstream"
 alias bb="byobu"
 alias tmux="tmux attach || tmux"
 alias sshhosts="find ~/.ssh/ -type f -name '*config*' | xargs sed -rn 's/^\s*Host\s*(.*)/\1/p' | sort"
+alias tg="terragrunt"
+alias tf="terraform"
 
 # 環境變數
 export EDITOR VISUAL HOME
@@ -57,7 +59,7 @@ if command -v nvim &> /dev/null; then
 fi
 
 if command -v bat &> /dev/null; then
-    alias cat="bat -p --theme=\"Sublime Snazzy\""
+    alias cat="bat -p --theme=TwoDark"
 fi
 
 if command -v exa &> /dev/null; then
@@ -85,4 +87,10 @@ if [ -d $HOME/Library/Python/2.7/bin   ]; then
 fi
 
 plugins=(git zsh-autosuggestions history copydir autojump)
+
+if command -v pyenv &> /dev/null; then
+    export PYENV_ROOT="$HOME/.pyenv"
+    export PATH="$PYENV_ROOT/bin:$PATH"
+    eval "$(pyenv init --path)"
+fi
 
