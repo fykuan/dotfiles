@@ -5,7 +5,10 @@ return {
     initial_rows = 48,
     initial_cols = 160,
     color_scheme = 'Tomorrow Night Eighties',
-    font = wezterm.font 'Hack',
+    font = wezterm.font_with_fallback {
+        'Hack',
+        'PingFang'
+    },
     window_background_opacity = 0.8,
     text_background_opacity = 0.8,
     use_fancy_tab_bar = true,
