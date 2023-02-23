@@ -36,6 +36,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'frazrepo/vim-rainbow'
 Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdtree'
+Plug 'jayli/vim-easycomplete'
+Plug 'SirVer/ultisnips'
 call plug#end()
 
 silent! colorscheme Tomorrow-Night-Eighties
