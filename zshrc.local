@@ -28,6 +28,8 @@ alias tmux="tmux attach || tmux"
 alias sshhosts="find ~/.ssh/ -type f -name '*config*' | xargs sed -rn 's/^\s*Host\s*(.*)/\1/p' | sort"
 alias tg="terragrunt"
 alias tf="terraform"
+alias pbc="pbcopy"
+alias pbp="pbpaste"
 
 # 環境變數
 export EDITOR VISUAL HOME
