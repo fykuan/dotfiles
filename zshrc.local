@@ -30,6 +30,7 @@ alias tg="terragrunt"
 alias tf="terraform"
 alias pbc="pbcopy"
 alias pbp="pbpaste"
+alias grep="rg"
 
 # 環境變數
 export EDITOR VISUAL HOME
