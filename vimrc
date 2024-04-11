@@ -38,7 +38,17 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdtree'
 Plug 'jayli/vim-easycomplete'
 Plug 'SirVer/ultisnips'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
+
+" NerdTree key mappings
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+
+" Use \b to list and switch vim buffers
+nnoremap <Leader>b :ls<CR>:b<Space>
 
 silent! colorscheme Tomorrow-Night-Eighties
 au FileType c,cpp,objc,objcpp call rainbow#load()
