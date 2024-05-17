@@ -65,8 +65,8 @@ if command -v bat &> /dev/null; then
     alias cat="bat -p --theme=TwoDark"
 fi
 
-if command -v exa &> /dev/null; then
-    alias ls="exa -g"
+if command -v eza &> /dev/null; then
+    alias ls="eza -g"
 fi
 
 # 讓iterm2的tab名稱顯示：@${HOSTNAME.*}: ${PWD/#$HOME/~
