@@ -97,3 +97,6 @@ if command -v pyenv &> /dev/null; then
     eval "$(pyenv init --path)"
 fi
 
+# Added by OrbStack: command-line tools and integration
+source ~/.orbstack/shell/init.zsh 2>/dev/null || :
+eval "$(/opt/homebrew/bin/brew shellenv)"
