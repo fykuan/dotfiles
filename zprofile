@@ -48,6 +48,7 @@ export XMODIFIERS=@im=ibus
 export GTK_IM_MODULE=ibus
 export QT_IM_MODULE=ibus
 export HOMEBREW_NO_ANALYTICS=1
+export STARSHIP_CONFIG=~/.starship.toml
 
 if command -v most &> /dev/null; then
     export PAGER="most"
