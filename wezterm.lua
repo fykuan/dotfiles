@@ -7,6 +7,7 @@ config = {
         'Hack',
         'PingFang'
     },
+    font_size = 12.0,
     color_scheme = 'Tomorrow Night Eighties',
     -- Window size controls
     initial_cols = 160,
