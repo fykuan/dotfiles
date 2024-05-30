@@ -5,7 +5,7 @@ local config = {}
 config = {
     font = wezterm.font_with_fallback {
         'Hack',
-        'PingFang'
+        { family = 'Heiti TC Light', scale = 1.2 },
     },
     font_size = 12.0,
     color_scheme = 'Tomorrow Night Eighties',
