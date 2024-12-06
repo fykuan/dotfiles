@@ -20,7 +20,7 @@ set t_Co=256
 set cursorcolumn
 set list
 set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
-set mouse=a
+set mouse=
 """""""""""""""""""""
 "Plugins
 """""""""""""""""""""
